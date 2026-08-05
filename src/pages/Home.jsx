@@ -17,7 +17,8 @@ function Home() {
                 </div>
             </div>
         </div> */}
-      {Data.map((ram) =>( < div className="card-container">
+        < div className="card-container ">
+      {Data.map((ram) =>( 
         <div className="card-wapper">
           <img src={ram.image} alt={ram.title} />{ram.title}
           <div className="home-card">
@@ -29,8 +30,9 @@ function Home() {
             </p>
           </div>
         </div>
-      </div>
+      
 ))}
+</div>
     </>
   );
 }
